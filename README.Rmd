@@ -1,0 +1,39 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# SquirrelTibble
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+For one of those times when you need data about New Yorks squirrels fast.
+
+## Installation
+
+You can install SquirrelTibble from github with:
+
+``` r
+devtools::install_github('jannikbuhr/SquirrelTibble')
+```
+
+## Usage
+
+Run
+
+```{r example, eval = FALSE}
+squirrelData <- SquirrelTibble::fetch_squirrels()
+```
+
+to get the data via the `RSocrata` package.
